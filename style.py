@@ -14,10 +14,10 @@ TV_WEIGHT = 2e2
 LEARNING_RATE = 1e-3
 NUM_EPOCHS = 2
 CHECKPOINT_DIR = 'checkpoints'
-CHECKPOINT_ITERATIONS = 2000
-VGG_PATH = 'data/imagenet-vgg-verydeep-19.mat'
-TRAIN_PATH = 'data/train2014'
-BATCH_SIZE = 4
+CHECKPOINT_ITERATIONS = 100
+VGG_PATH = '/content/data/imagenet-vgg-verydeep-19.mat'
+TRAIN_PATH = '/content/data/train2014'
+BATCH_SIZE = 16
 DEVICE = '/gpu:0'
 FRAC_GPU = 1
 
